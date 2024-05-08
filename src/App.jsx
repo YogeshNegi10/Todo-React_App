@@ -91,8 +91,8 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full max-w-2xl mx-auto shadow-lg rounded-sm px-4 overflow-y-auto    py-3">
-            <div className=" flex w-full justify-center items-center p-4">
+          <div className="w-full max-w-2xl mx-auto shadow-lg rounded-sm px-4 overflow-y-auto py-3">
+            <div className=" flex w-full justify-center items-center  p-4">
               <h1 className="text-4xl text-white font-bold text-center mr-3 ">
                 To Do List{" "}
               </h1>
