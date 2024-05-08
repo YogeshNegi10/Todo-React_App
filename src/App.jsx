@@ -51,9 +51,9 @@ function App() {
     <TodoProvider
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
-      <div className=" bg-purple-500 min-h-screen py-8 px-4  ">
-        <div className="flex-col flex md:flex-row  border-4 rounded-xl max-h-[550px] overflow-hidden ">
-          <div className="right bg-[#f5f1f1] border-b-4 md:border-r-4 shadow:md h-[200px] md:h-[550px] w-full md:max-w-[250px] p-4  md:p-6">
+      <div className=" bg-purple-500 py-8 px-4  ">
+        <div className="flex-col flex md:flex-row  border-4 rounded-xl  overflow-hidden ">
+          <div className="right bg-[#f5f1f1] border-b-4 md:border-r-4 shadow:md p-4     md:p-6">
             <div className="profile flex justify-center md:justify-start items-center gap-2">
               <div className="profile_pic">
                 <img src={react} alt="" />
@@ -71,7 +71,7 @@ function App() {
               <div>
                 <BiTask size={20} className=" text-purple-500" />
               </div>
-              <div>
+              <div>s
                 <h2 className=" mb-3 md:mb-6 font-bold ">Todays Task</h2>
                 <ul className="flex flex-row md:flex-col gap-2 font-normal ">
                   <div className=" flex gap-2 items-center ">
@@ -91,8 +91,8 @@ function App() {
             </div>
           </div>
 
-          <div className="w-full max-w-2xl mx-auto shadow-lg rounded-sm px-4 overflow-y-auto py-3">
-            <div className=" flex w-full justify-center items-center  p-4">
+          <div className="w-full max-w-2xl mx-auto shadow-lg rounded-sm px-4 py-3">
+            <div className=" flex w-full justify-center items-center p-4 b">
               <h1 className="text-4xl text-white font-bold text-center mr-3 ">
                 To Do List{" "}
               </h1>
