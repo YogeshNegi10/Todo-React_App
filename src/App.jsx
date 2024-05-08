@@ -52,7 +52,7 @@ function App() {
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
       <div className=" bg-purple-500 py-8 px-4  ">
-        <div className="flex-col flex md:flex-row  border-4 rounded-xl  overflow-hidden ">
+        <div className="flex-col flex md:flex-row min-h-[550px] h-full  border-4 rounded-xl  overflow-hidden ">
           <div className="right bg-[#f5f1f1] border-b-4 md:border-r-4 shadow:md p-4     md:p-6">
             <div className="profile flex justify-center md:justify-start items-center gap-2">
               <div className="profile_pic">
@@ -71,7 +71,7 @@ function App() {
               <div>
                 <BiTask size={20} className=" text-purple-500" />
               </div>
-              <div>s
+              <div>
                 <h2 className=" mb-3 md:mb-6 font-bold ">Todays Task</h2>
                 <ul className="flex flex-row md:flex-col gap-2 font-normal ">
                   <div className=" flex gap-2 items-center ">
